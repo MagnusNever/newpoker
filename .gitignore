@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+.playwright-cli/
+
+# Misc
+*.tsbuildinfo
+nul
+
+# Claude / skills
+.agents/
+.claude/
+skills-lock.json
+_gars_log.txt
+
+# Generated reports
+ai_game_report_*.html
+app_research_*.html
+generate_report.py
+start-claude-ark.ps1
